@@ -8,7 +8,8 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.select do |x|
+  new_array = array.select do |x|
     x.include?("a")
   end
+  new_array
 end
