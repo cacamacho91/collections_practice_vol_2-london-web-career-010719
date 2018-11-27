@@ -24,3 +24,9 @@ def remove_non_strings(array)
     !(x.is_a?(String))
   end
 end
+
+#to_do
+def count_elements(array)
+  count = Hash.new
+end
+  
