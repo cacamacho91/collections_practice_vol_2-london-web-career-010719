@@ -11,5 +11,6 @@ def contain_a(array)
   new_array = array.select do |x|
     x.include?("a")
   end
-  new_array
 end
+
+def
