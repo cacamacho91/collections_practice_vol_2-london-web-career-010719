@@ -6,3 +6,9 @@ def begins_with_r(array)
   end
   true
 end
+
+def contain_a(array)
+  array.select do |x|
+    x.include?("a")
+  end
+end
