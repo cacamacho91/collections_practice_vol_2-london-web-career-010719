@@ -16,6 +16,5 @@ end
 def first_wa(array)
   array.find do |x|
     x.is_a?(String) ? x.start_with?("wa") : false
-    end
   end
 end
