@@ -12,5 +12,3 @@ def contain_a(array)
     x.include?("a")
   end
 end
-
-def
